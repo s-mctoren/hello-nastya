@@ -1,7 +1,9 @@
 Ctrl+B • Открыть / закрыть Explorer в VS Code.
 Alt+Z • toggle Word Wrap in VS Code. (Если не задевает горячую клавишу вашей видеокарты.) Иначе — View → Word Wrap.
-Ctrl+/ • create comments.
+Ctrl+/ • create comment.
 !+Tab • быстрое создание базовой структуры HTML.
+Tab • уровень выше,
+Shift+Tab • уровень ниже.
 
 1. HTML — структура страниц. Текст, ссылки, описания. ("Скелет".)
 2. CSS — визуальная часть. ("Внешность".)
@@ -45,6 +47,7 @@ mdn html ul
 mdn html ol
 mdn html table
 
+
 <img /> — самозакрывающийся тег.
 
 Таблицы.
@@ -55,3 +58,39 @@ mdn html table
 <thead></thead>
 <tbody></tbody>
 <tfoot></tfoot>
+
+
+
+Hello CSS
+
++ Plugins (optional):
+    • Auto Close Tag,
+    • Auto Rename Tag,
+    • Bracket Pair Colorizer 2,
+    • vscode-icons.
+
+#ff00ee — hex-code, принцип RGB: по две цифры на каждый цвет. Дополнительно можно указать ещё две цифры для прозрачности цвета.
+
+  ♣  class="avatar"
+.avatar {
+    ...
+}
+
+or
+
+  ♣  id="avatar"
+#avatar {
+    ...
+}
+
+Id уникален, class может повторяться, указываться в нескольких местах.
+
+.+Tab • emit <div class=""></div>
+
+div#+Tab • emit <div id=""></div>
+
+.container+Tab • <div class="container"></div>
+
+search:
+css color name mdn
+
