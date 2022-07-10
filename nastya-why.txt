@@ -94,3 +94,18 @@ div#+Tab • emit <div id=""></div>
 search:
 css color name mdn
 
+Подключить CSS
+<link href=""> rel="stylesheet" />
+OR 
+link+Tab • автоматическое заполнение команды, чтобы просто вписать адрес страницы стилей.
+
+? селектор
+? box-shadow
+
+Значения свойств типа padding и margin задаются по часовой стрелке.
+Значения конкретных сторон можно задавать через -top, -right, -bottom и -left.
+
+— НАПИШИ ROCK-PAPER-SCISSORS НА JAVASCRIPT, — сказал он (не капсом).
+— Нет, лучше даже на Angular, — добавил он.
+Yess
+...to be continued. Maybe.
