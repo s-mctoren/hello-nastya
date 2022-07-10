@@ -51,6 +51,17 @@ a:visited {
     padding-top: 30px;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 700px) {
+    .flex-container {
+        flex-direction: row-reverse;
+    }
+}
+
 .info {
     display: flex;
     margin-bottom: 20px;
@@ -151,7 +162,7 @@ a:visited {
     padding-bottom: 5px;
 }
 
-.contact h2{
+.contact h2 {
     text-align: center;
 }
 
