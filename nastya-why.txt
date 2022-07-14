@@ -27,7 +27,7 @@ developer.mozilla.org
 Можно нарабатывать определённые шпаргалки в codepen.io.
 
 Plugin 
--'Emit',
+-'Emmet',
 -'Prettier'.
 
 <i></i> меняет текст только визуально, в отличие от <em></em>, который также добавляет семантику тексту, она позволяет роботам определять особую значимость отрывка.
@@ -85,9 +85,9 @@ or
 
 Id уникален, class может повторяться, указываться в нескольких местах.
 
-.+Tab • emit <div class=""></div>
+.+Tab • <div class=""></div>
 
-div#+Tab • emit <div id=""></div>
+div#+Tab • <div id=""></div>
 
 .container+Tab • <div class="container"></div>
 
